@@ -21,12 +21,18 @@ public class DiezxcientoTest {
 		//throw new RuntimeException("not yet implemented");
 		
 		//Given
-		Diezxciento diezxciento = new Diezxciento(1000000,700000);
+		Diezxciento diezxciento1 = new Diezxciento(900000,700000);
+		Diezxciento diezxciento2 = new Diezxciento(7000000,700000);
+		Diezxciento diezxciento3 = new Diezxciento(15000000,700000);
+		Diezxciento diezxciento4 = new Diezxciento(55000000,700000);
 
 		//When
 
 		//Then
-		assertEquals(1000000,diezxciento.diezxciento());
+		assertEquals(900000,diezxciento1.diezxciento());
+		assertEquals(1000000,diezxciento2.diezxciento());
+		assertEquals(1500000,diezxciento3.diezxciento());
+		assertEquals(5000000,diezxciento4.diezxciento());
 
 	}
 

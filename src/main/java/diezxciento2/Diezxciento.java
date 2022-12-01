@@ -16,8 +16,6 @@ public class Diezxciento {
 	    }
 
 	    public int diezxciento() {
-			System.out.println(diezxciento);
-	        
 	        // Si ahorro > 1.000.000 y ahorro < 10M, entonces retorna 1M
 	        // Si ahorro > 50M, entonce retorna 5M
 	        // Si ahorro < 1M, entonces devolver total
@@ -32,7 +30,7 @@ public class Diezxciento {
 			
 
 			double diezxciento = ahorro * 0.1;
-				
+			System.out.println(diezxciento);
 			return (int) diezxciento;
 	    }
 
