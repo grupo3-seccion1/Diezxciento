@@ -22,13 +22,13 @@ public class Diezxciento {
 	        // Si ahorro > 1.000.000 y ahorro < 10M, entonces retorna 1M
 	        // Si ahorro > 50M, entonce retorna 5M
 	        // Si ahorro < 1M, entonces devolver total
-	        
+			if (ahorro<1000000)
+				return ahorro;
+
 	        if(ahorro > 50000000)
 	        	return 5000000;
-	        else if (ahorro<1000000)
-	        	return ahorro;
-	        else
-	        	return (int) diezxciento;
+			
+			return (int) diezxciento;
 	    }
 
 	    public int impuesto() {
