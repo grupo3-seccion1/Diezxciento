@@ -26,7 +26,7 @@ public class DiezxcientoTest {
 		//When
 
 		//Then
-		assertEquals(100000,diezxciento.diezxciento());
+		assertEquals(1000000,diezxciento.diezxciento());
 
 	}
 
